@@ -1,0 +1,114 @@
+body, html {
+    height: 100%;
+  }
+  body {
+    font-family: Arial, sans-serif;
+    background-image: url(./image/do.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f3f5f6;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  input[type="text"],
+  select{
+    width: calc(25.5% - 10px); /* Adjust the width as needed */
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  input[type="date"] {
+    width: calc(18.5% - 10px); /* Adjust the width as needed */
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    width:100%;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size:small;
+    
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .smallText {
+    display: inline-block;
+    font-size: 12px;
+    color: #666;
+    margin-right: 10px;
+  }
+  
+ /* Add or modify existing styles as needed */
+
+.task-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .completeButton {
+    padding: 5px 10px;
+    width:15%;
+    font-size: 12px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  .deleteButton {
+    padding: 5px 10px;
+    width:15%;
+    font-size: 12px;
+    background-color: #fd0404;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .completeButton:hover{
+    background-color: #45a049;
+  }
+  .deleteButton:hover {
+    background-color: #e7220c;
+  }
+  .completed {
+    text-decoration: line-through;
+  }
+  
